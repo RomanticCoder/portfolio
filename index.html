@@ -18,15 +18,16 @@
   <body>
     <!-- Navbar -->
     <div class="navbar">
-      <a href="#" class="navbar__logo"><img src="" alt="logo" /></a>
+      <!-- 점 네개 앱 로고 -->
       <ul class="navbar__menu">
-        <li class="navbar__menu__item">Who is Hailey?</li>
-        <li class="navbar__menu__item">Show me her projects</li>
-        <li class="navbar__menu__item">Is she reliable?</li>
+        <i class="fas fa-th"></i>
+        <li class="navbar__menu__item">Who is she?</li>
+        <li class="navbar__menu__item">projects</li>
+        <li class="navbar__menu__item">references</li>
         <li class="navbar__menu__item">Contacts</li>
       </ul>
       <ul class="navbar__bookmark">
-        bookmark
+        <i class="fas fa-bookmark"></i>
         <li class="navbar__bookmark__item">clone coding1</li>
         <li class="navbar__bookmark__item">twitter</li>
         <li class="navbar__bookmark__item">google</li>
@@ -38,6 +39,7 @@
       <href href="#" class="profile__name"
         ><img src="imgs/name.png" alt="name"
       /></href>
+
       <form action="/action_page.php">
         <div class="profile__searchbar">
           <input
@@ -51,6 +53,20 @@
           </button>
         </div>
       </form>
+
+      <div class="profile__links">
+        <div class="profile__link">
+          <i class="fab fa-github profile__link__icon"></i>
+          <span class="profile__link__name">github</span>
+        </div>
+        <div class="profile__link">
+          <i
+            style="color: #0077b5"
+            class="fab fa-linkedin profile__link__icon"
+          ></i>
+          <span class="profile__link__name">linkedin</span>
+        </div>
+      </div>
     </div>
   </body>
 </html>
