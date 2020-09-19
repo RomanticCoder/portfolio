@@ -42,7 +42,8 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Epilogue", sans-serif;
+
   cursor: default;
 }
 
@@ -110,11 +111,12 @@ button {
 .navbar__menu i {
   color: var(--color-grey);
   margin-right: 5px;
+  font-size: var(--font-regular);
 }
 .navbar__menu__item {
   padding: 6px 8px;
   border-radius: 20px;
-  font-size: var(--font-micro);
+  font-size: var(--font-regular);
   color: var(--color-grey);
   margin: 2px 0 3px 0;
 }
@@ -124,6 +126,7 @@ button {
 }
 
 .navbar__bookmark {
+  font-size: var(--font-regular);
   margin-right: 10px;
   color: var(--color-orange);
 }
@@ -136,7 +139,9 @@ button {
 #profile {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 90vh;
 }
 .profile__name img {
   width: 80vw;
@@ -147,7 +152,7 @@ button {
   display: flex;
   justify-content: space-between;
   width: 60vw;
-  max-width: 450px;
+  max-width: 600px;
   padding: 0 10px 0 20px;
   height: 50px;
   border: 1px solid var(--color-light-grey);
@@ -157,6 +162,7 @@ button {
 
 .profile__searchbar__input {
   border: none;
+  outline: none;
   width: 100%;
   font-size: var(--font-regular);
 }
