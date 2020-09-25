@@ -49,7 +49,6 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-white);
 }
 
 ul {
@@ -113,25 +112,48 @@ button {
   margin-right: 5px;
   font-size: var(--font-regular);
 }
-.navbar__menu__item {
+.navbar__menu__item,
+.bookmark {
   padding: 6px 8px;
   border-radius: 20px;
   font-size: var(--font-regular);
   color: var(--color-grey);
-  margin: 2px 0 3px 0;
+  margin: 10px 2px;
 }
 
-.navbar__menu__item:hover {
+.navbar__menu__item:hover,
+.bookmark:hover,
+.navbar__bookmark__item:hover {
   background-color: var(--color-lighter-grey);
 }
 
-.navbar__bookmark {
+.navbar__bookmark__icon {
   font-size: var(--font-regular);
-  margin-right: 10px;
+  margin-right: 5px;
   color: var(--color-orange);
 }
+
+.navbar__bookmark {
+  position: absolute;
+  top: 42px;
+  right: 10px;
+  padding: 0;
+  border: 1px solid var(--color-dark-white);
+  background-color: var(--color-white);
+}
+
 .navbar__bookmark__item {
   display: none;
+  padding: 5px 10px;
+  color: var(--color-grey);
+}
+
+.navbar__bookmark__item.active {
+  display: block;
+}
+
+.navbar__bookmark__item > i {
+  padding-right: 5px;
 }
 
 /* Main */
@@ -144,8 +166,8 @@ button {
   height: 90vh;
 }
 .profile__name img {
-  width: 80vw;
-  max-width: 600px;
+  width: 60vw;
+  max-width: 500px;
 }
 
 .profile__searchbar {
