@@ -4,8 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/006f14bf04.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="about.js" defer></script>
   </head>
   <body>
-    hello
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- 점 네개 앱 로고 -->
+      <ul class="navbar__menu">
+        <i class="fas fa-th"></i>
+        <a href="about.html"><li class="navbar__menu__item">Who is she?</li></a>
+        <li class="navbar__menu__item">projects</li>
+        <li class="navbar__menu__item">references</li>
+        <li class="navbar__menu__item">Contacts</li>
+      </ul>
+      <div class="bookmark">
+        <i class="navbar__bookmark__icon fas fa-bookmark"></i>
+        <span class="navbar__bookmark__icon">bookmark</span>
+      </div>
+      <ul class="navbar__bookmark">
+        <a href="https://www.naver.com" target="_blank">
+          <li class="navbar__bookmark__item">
+            <i class="fab fa-github"></i>clone coding1
+          </li></a
+        >
+        <li class="navbar__bookmark__item">twitter</li>
+        <li class="navbar__bookmark__item">google</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card__img">
+        <img class="card__img__item" src="imgs/card/profile2.jpg" />
+        <img class="card__img__item" src="imgs/card/profile1.jpg" />
+        <img class="card__img__item" src="imgs/card/profile4.jpg" />
+      </div>
+      <div class="card__body">
+        <h2>Hailey Lee</h2>
+        <p class="card__text">
+          Junior Software Developer Computer Programmer Student
+        </p>
+        <br />
+        <h3>Available on</h3>
+        <div class="card__links">
+          <a
+            href="https://github.com/RomanticCoder"
+            class="card__link"
+            target="_blank"
+          >
+            <i class="fab fa-github card__link__icon"></i>
+            <span class="card__link__name">github</span>
+          </a>
+          <a href="#" class="card__link" target="_blank">
+            <i
+              style="color: #0077b5"
+              class="fab fa-linkedin card__link__icon"
+            ></i>
+            <span class="card__link__name">linkedin</span>
+          </a>
+        </div>
+        <p class="card__softskill">
+          Hailey Lee is an Computer Programmer Student. She is known for her
+          passion for learning new technologies. She is self-motived, results
+          oriented. She can adapt quickly when needed.
+        </p>
+        <p class="card__text"></p>
+      </div>
+    </div>
   </body>
 </html>
