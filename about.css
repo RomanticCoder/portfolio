@@ -34,9 +34,15 @@
   --animation-duration: 300ms;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
 .card {
   width: 400px;
-  margin: 20px;
   border-radius: 10px;
   border: 1px solid var(--color-light-grey);
 }
@@ -75,6 +81,69 @@
   padding: 12px;
 }
 
-.softskill {
-  list-style: circle;
+/* Skills */
+.skills {
+  margin: 10px 30px;
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: var(--color-dark-pink);
+}
+
+.skillset {
+  display: flex;
+  align-items: stretch;
+}
+
+.skillset__left {
+  background-color: var(--color-orange);
+  padding: 20px;
+}
+.skillset__title {
+  text-align: center;
+}
+.skill {
+  margin: 20px 0px;
+}
+
+.skill_description {
+  font-size: var(--font-regular);
+  display: flex;
+  justify-content: space-between;
+}
+.skill__bar {
+  width: 400px;
+  height: 6px;
+  background-color: var(--color-black);
+}
+
+.skill__value {
+  height: 6px;
+  background-color: var(--color-white);
+}
+
+.tools {
+  padding: 20px;
+  background-color: var(--color-pink);
+}
+.tools__list,
+.etc__list {
+  padding-left: 0;
+  font-size: var(--font-regular);
+  text-align: center;
+}
+
+.etcs {
+  padding: 20px;
+  background-color: var(--color-dark-pink);
+}
+
+.projects {
+  margin: 0 30px;
+  padding: 10px 20px;
+  background-color: var(--color-light-white);
+  margin-bottom: 50px;
+}
+
+.project__title {
+  text-align: center;
 }
