@@ -412,3 +412,16 @@ p {
   color: var(--color-white);
   border-bottom-right-radius: 0;
 }
+
+#contact {
+  background-color: var(--color-orange);
+}
+
+.contact__title,
+.contact__email {
+  color: var(--color-white);
+}
+
+.contact__links i {
+  font-size: var(--font-large);
+}
