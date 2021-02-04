@@ -5,13 +5,14 @@ h1 {
   font-family: "Yusei Magic", sans-serif;
 }
 
+/* home */
 #home {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-img {
+.home__image {
   margin-top: -20px;
   width: 30%;
 }
@@ -34,4 +35,26 @@ img {
   position: absolute;
   top: -10px;
   left: 200px;
+}
+
+/* skills */
+
+.skill {
+  width: 300px;
+}
+.skill__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill__bar {
+  height: 13px;
+  background-color: gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill__value {
+  background-color: orange;
+  height: 100%;
 }
