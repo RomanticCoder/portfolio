@@ -23,7 +23,7 @@
         </div>
         <div class="navbar__menu">
             <ul class="navbar__menu">
-                <li class="navbar__menu_item">Home</li>
+                <li class="navbar__menu_item active">Home</li>
                 <li class="navbar__menu_item">about</li>
                 <li class="navbar__menu_item">skills</li>
                 <li class="navbar__menu_item">projects</li>
@@ -34,115 +34,185 @@
     
     <!-- Home -->
     <section id="home">
-        <h1 class="home__title">Junior Front-end Developer</h1>
-        <h2>I Love JS.</h2>
-        <img class="home__image" src="imgs/main.png"alt="lee image">
-        <h3 class="home__description balloon">
-            Hi! I'm a front-end developer currently residing in Ontario.<br>
-            I study computer programming at Georgian College<br>
-            My interest is mainly in JavaScript. <br>
-        </h3>
+        <div class="section_container">
+            <h1 class="home__title">Junior Front-end Developer</h1>
+            <h2>Hello, I'm a dream coder.</h2>
+            <img class="home__image" src="imgs/main.png"alt="lee image">
+            <h3 class="home__description balloon">
+                Hi! I'm a front-end developer currently residing in Ontario.<br>
+                I study computer programming at Georgian College<br>
+                My interest is mainly in JavaScript. <br>
+                <button class="home__contact">contact me</button>
+            </h3>
+        </div>
     </section>
 
     <!-- Skills -->
     <section id="skills">
-        <h1>Skills</h1>
-        <h2>Skills & Atrributes</h2>
-        <p>Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under time pressure and adapt quickly when needed.</p>
-        <div class="skillset">
-            <h3 class="skillset__title">
-                <div class="skill">
-                    <div class="skill__description">
-                        <span>JavaScript</span>
-                        <span>99%</span>
+        <div class="section_container">
+            <h1>Skills</h1>
+            <h2>Skills & Atrributes</h2>
+            <p class="skills__description">Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under time pressure and adapt quickly when needed.</p>
+            <div class="skillset">
+                    <h3 class="skillset__title">Main skills</h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:90%;"></div>
+                        </div>
                     </div>
-                    <div class="skill__bar">
-                        <div class="skill__value" style="width:99%;"></div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:90%;"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="skill">
-                    <div class="skill__description">
-                        <span>HTML/CSS</span>
-                        <span>90%</span>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>TypeScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:90%;"></div>
+                        </div>
                     </div>
-                    <div class="skill__bar">
-                        <div class="skill__value" style="width:90%;"></div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>React</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width:90%;"></div>
+                        </div>
                     </div>
-                </div>
-
-            </h3>
+                    
+            </div>
         </div>
     </section>
 
     <!-- Work -->
     <section id="work">
-        <h1>My Projects</h1>
-        <h3>projects</h3>
-        <div class="work__categories">
-            <button class="category__btn">ALL<span category__count>1</span></button>
-            <button class="category__btn">FRONTEND<span category__count>1</span></button>
-            <button class="category__btn">BACKEND<span category__count>1</span></button>
-        </div>
-        <div class="work__projects">
-            <a href="#" class="project" target="_blank">
-                <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
-            </a>
-            <div class="project__description">
-                <h3>Navbar</h3>
-                <span>Clone coding with HTML and CSS</span>
+        <div>
+            <h1>My Projects</h1>
+            <div class="work__categories">
+                <button class="category__btn active">ALL</button>
+                <button class="category__btn">FRONTEND</button>
+                <button class="category__btn">BACKEND</button>
             </div>
-        </div>
-        <div class="work__projects">
-            <a href="#" class="project" target="_blank">
-                <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
-            </a>
-            <div class="project__description">
-                <h3>Navbar</h3>
-                <span>Clone coding with HTML and CSS</span>
-            </div>
-        </div>
-        <div class="work__projects">
-            <a href="#" class="project" target="_blank">
-                <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
-            </a>
-            <div class="project__description">
-                <h3>Navbar</h3>
-                <span>Clone coding with HTML and CSS</span>
-            </div>
-        </div>
-        <div class="work__projects">
-            <a href="#" class="project" target="_blank">
-                <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
-            </a>
-            <div class="project__description">
-                <h3>Navbar</h3>
-                <span>Clone coding with HTML and CSS</span>
+            <div class="work__projects">
+                <div class="work__project">
+                    <a href="https://www.google.com/search?safe=active&sxsrf=ALeKk03ic6pzXPzjPN_l5YT6YSV9ZlNF3Q%3A1612415098035&ei=eoAbYIzSAcW5tQaarIVY&q=css+font+size+relative&oq=css+font+size+rela&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoHCAAQsAMQQ1DqCVjPDmCkFGgBcAJ4AIABhwOIAcMGkgEFNS4zLTGYAQCgAQGqAQdnd3Mtd2l6yAEKwAEB&sclient=psy-ab" class="project" target="_blank">
+                        <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
+                        <div class="project__description">
+                            <h3>Navbar</h3>
+                            <span>Clone coding with HTML and CSS</span>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="work__project">
+                    <a href="#" class="project" target="_blank">
+                        <img src="https://s3.amazonaws.com/thinkific-import-development/292401/navbar-200518-191508.png" alt="ㅍ로젝트 이미지">
+                    </a>
+                    <div class="project__description">
+                        <h3>Navbar</h3>
+                        <span>Clone coding with HTML and CSS</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <section id="testimonials">
-        <div class="testimonial">
-            <img class="testimonial__avatar" src="https://s3.amazonaws.com/thinkific-import-development/292401/people1-200515-154332.jpg" alt="ppl1">
-        </div>
-        <div class="testimonial__speech-bubble">
-            <p>How have you been?</p>
+        <div class="section_container">
+            <h1>Testimonials</h1>
+            <h3>Look what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial__bar">
+                        <div><i class="fas fa-arrow-left"></i></div>
+                        <div class="bar__name">
+                            <p><a href="#" target="_blank">Ellie</a>/Samsung</p>
+                            <span>Active now</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial__container">
+                        <div class="testimonial__speech-bubble mine">
+                            <p>How was working with me?!</p>
+                        </div>
+                        <div class="testimonial__content">
+                            <div class="testimonial__avatar">
+                                <img class="avatar__image" src="https://s3.amazonaws.com/thinkific-import-development/292401/people1-200515-154332.jpg" alt="ppl1">
+                                <p class="avatar__active"><i class="fas fa-check-circle"></i></p>          
+                            </div>
+                            <div class="testimonial__speech-bubble">
+                                <p>I met her at schofdifodjiodkfkldmklsfjdjfjfodjiodosjfodol.</p>
+                                <p>She kdlmfldlfdksfmdldfosn</p>
+                                <p>How have you been?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="testimonial">
+                    <div class="testimonial__bar">
+                        <div><i class="fas fa-arrow-left"></i></div>
+                        <div class="bar__name">
+                            <p><a href="#" target="_blank">Ellie</a>/Samsung</p>
+                            <span>Active now</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial__container">
+                        <div class="testimonial__content">
+                            <div class="testimonial__avatar">
+                                <img class="avatar__image" src="https://s3.amazonaws.com/thinkific-import-development/292401/people1-200515-154332.jpg" alt="ppl1">
+                                <p class="avatar__active"><i class="fas fa-check-circle"></i></p>          
+                            </div>
+                            <div class="testimonial__speech-bubble">
+                                <p>I met her at school.</p>
+                                <p>She is a passionate person</p>
+                                <p>How have you been?</p>
+                            </div>
+                        </div>
+                        <div class="testimonial__speech-bubble mine">
+                            <p>Thank you!</p>
+                        </div>
+
+                    </div>
+                </div>            
+             
+            </div>
         </div>
     </section>
 
     <!-- Contact -->
     <section id="contact">
-        <h1 class="contact__title">Let's talk !</h1>
-        <h2 class="contact__email">email@gmail.com</h2>
-        <div class="contact__links">
-            <a href="#" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="#" target="_blank">
-                <i class="fab fa-linkedin"></i>  
-            </a>
+        <div class="section_container">
+            <h1 class="contact__title">Let's talk !</h1>
+            <h2 class="contact__email">email@gmail.com</h2>
+            <div class="contact__links">
+                <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-linkedin"></i>  
+                </a>
+            </div>
         </div>
-
     </section>
 
 </body>
